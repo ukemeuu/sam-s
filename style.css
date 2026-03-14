@@ -160,34 +160,7 @@ span {
     letter-spacing: -0.5px;
 }
 
-.barber-pole {
-    display: inline-block;
-    width: 6px;
-    height: 24px;
-    border-radius: 3px;
-    background: repeating-linear-gradient(-45deg,
-            #dc2626,
-            #dc2626 4px,
-            #ffffff 4px,
-            #ffffff 8px,
-            #1d4ed8 8px,
-            #1d4ed8 12px,
-            #ffffff 12px,
-            #ffffff 16px);
-    background-size: 100% 32px;
-    animation: poleSpin 1.5s linear infinite;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
-}
 
-@keyframes poleSpin {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 0 32px;
-    }
-}
 
 .nav-links {
     display: flex;
